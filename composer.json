@@ -1,0 +1,21 @@
+{
+    "name": "drgreen/test-package",
+    "description": "Test project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Aleksandr Astafev",
+            "email": "newslim@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "drgreen\\Test\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
